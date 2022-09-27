@@ -1,0 +1,83 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+}
+.main-code-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 30px;
+}
+
+@media (screen) and (min-width: 992px) {
+  .main-code-container {
+    flex-direction: row;
+  }
+}
+
+.logo {
+  height: 300px;
+  align-self: center;
+  order: 0;
+}
+
+@media (screen) and (min-width: 992px) {
+  .logo {
+    order: 1;
+  }
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+@media (screen) and (min-width: 992px) {
+  .counter-container {
+    order: 0;
+  }
+}
+.calculate {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.enter {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  align-self: start;
+  padding-left: 20%;
+  margin-bottom: 9px;
+}
+.input-box {
+  background-color: transparent;
+  border-color: white;
+  border-radius: 1px;
+  border-style: solid;
+  outline: none;
+  border-radius: 8px;
+  color: white;
+  height: 45px;
+  margin-bottom: 20px;
+  width: 260px;
+}
+.no-of-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 260px;
+}
+.no-of-letters {
+  color: #1d976c;
+  font-size: 25px;
+  font-family: Roboto;
+  padding-left: 20px;
+  font-weight: bold;
+}
